@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: #666;
-    padding: 10px;
+    background-color: #7882E2;
+    padding: 5px;
     text-align: center;
     font-size: 35px;
     color: white;
@@ -16,7 +16,7 @@ header {
 nav {
     float: left;
     width: 25%;
-    height: 420px;
+    height: 460px;
     background: #ccc;
     padding: 20px;
 }
@@ -26,7 +26,7 @@ article {
     padding: 20px;
     width: 75%;
     background-color: #f1f1f1;
-    height: 210px;
+    height: 230px;
 }
 
 section:after {
@@ -34,6 +34,20 @@ section:after {
     display: table;
     clear: both;
 }
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 200px;
+  }
 
 footer {
     background-color: #777;
